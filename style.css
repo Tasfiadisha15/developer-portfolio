@@ -1,3 +1,40 @@
-p{
-    color: aquamarine;
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+.color {
+    color: indianred;
+}
+
+section {
+    display: flex;
+}
+
+.width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.width img {
+    width: 60%;
+}
+
+.hire {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 0, 191), tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
