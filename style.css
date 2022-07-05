@@ -12,7 +12,8 @@ h1 {
     color: indianred;
 }
 
-section {
+
+.flexible-container {
     display: flex;
     margin-bottom: auto;
 }
@@ -20,6 +21,7 @@ section {
 .width {
     width: 50%;
     padding-left: 2%;
+
 }
 
 .width img {
@@ -45,4 +47,31 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exitem {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(105, 7, 40);
+
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#full-stack-developer {
+    border-left: 7px solid rgb(146, 39, 75);
+}
+
+#baby-web-developer {
+    border-left: 7px solid purple;
+}
+
+footer p {
+    text-align: center;
 }
